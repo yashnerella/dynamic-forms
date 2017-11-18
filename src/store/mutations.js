@@ -1,0 +1,1 @@
+export const genericMutation = (state, payLoad) => state[payLoad.pathInStore][payLoad.field] = payLoad.userInput
